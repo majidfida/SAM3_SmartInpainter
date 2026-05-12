@@ -1,10 +1,11 @@
 [project]
-name = "comfyui-sam3-smartinpainter"
-version = "1.0.0"
+name = "sam3-smartinpainter"           # ← Use hyphens (PEP 508 standard)
 description = "Auto face detection + inpainting node using SAM3"
+version = "1.0.0"
+license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.9"
-license = {text = "MIT"}
+
 dependencies = [
     "opencv-python>=4.5.0",
     "omegaconf>=2.1.0",
@@ -12,10 +13,18 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/YOUR_USERNAME/ComfyUI-SAM3-SmartInpainter"
+Repository = "https://github.com/majidfida/SAM3_SmartInpainter"
+Documentation = "https://github.com/majidfida/SAM3_SmartInpainter#readme"
+"Bug Tracker" = "https://github.com/majidfida/SAM3_SmartInpainter/issues"
 
 [tool.comfy]
 PublisherId = "majidfida"
 DisplayName = "SAM3 Smart Inpainter"
 Dependencies = ["yolain/ComfyUI-Easy-Sam3"]
-Icon = ""
+Icon = "icon.png"
+Includes = [
+    "SAM3_SmartInpainter.py",
+    "__init__.py"
+]
+# Optional: specify minimum ComfyUI version
+# RequiresComfyUI = ">=1.0.0"
