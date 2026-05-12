@@ -1,0 +1,21 @@
+[project]
+name = "comfyui-sam3-smartinpainter"
+version = "1.0.0"
+description = "Auto face detection + inpainting node using SAM3"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "opencv-python>=4.5.0",
+    "omegaconf>=2.1.0",
+    "hydra-core>=1.1.0",
+]
+
+[project.urls]
+Repository = "https://github.com/YOUR_USERNAME/ComfyUI-SAM3-SmartInpainter"
+
+[tool.comfy]
+PublisherId = "majidfida"
+DisplayName = "SAM3 Smart Inpainter"
+Dependencies = ["yolain/ComfyUI-Easy-Sam3"]
+Icon = ""
