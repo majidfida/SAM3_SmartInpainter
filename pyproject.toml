@@ -1,5 +1,5 @@
 [project]
-name = "sam3-smartinpainter"           # ← Use hyphens (PEP 508 standard)
+name = "sam3-smartinpainter"
 description = "Auto face detection + inpainting node using SAM3"
 version = "1.0.0"
 license = { text = "MIT" }
@@ -26,5 +26,3 @@ Includes = [
     "SAM3_SmartInpainter.py",
     "__init__.py"
 ]
-# Optional: specify minimum ComfyUI version
-# RequiresComfyUI = ">=1.0.0"
