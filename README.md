@@ -188,7 +188,7 @@ This node is designed mainly for faces, but you can type any prompt: `"hat"`, `"
 
 ## 🙏 Credits
 
-- SAM3 model: Meta AI Research / Majidfida (HuggingFace)
+- SAM3 model: Meta AI Research / Facebook (HuggingFace)
 - ComfyUI-Easy-Sam3: [@yolain](https://github.com/yolain)
 - ComfyUI-RMBG: [@1038lab](https://github.com/1038lab)
 - This node: Community contribution
